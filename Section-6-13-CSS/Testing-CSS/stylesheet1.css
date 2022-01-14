@@ -1,0 +1,53 @@
+:root {
+    font-family: Arial;
+    color: black;
+    background-color: #E5E5E5;
+}
+
+ ::selection {
+    background-color: #FCA311;
+    color: black;
+}
+
+
+
+h1 {
+    color: #14213D;
+    text-align: left;
+    font-weight: normal;
+}
+
+h2 {
+    color: #14213D;
+}
+
+p {
+    color: black;
+}
+
+button {
+    background-color: black;
+    color: white;
+}
+
+.auth {
+    background-color: #14213D;
+    color: #ffffff;
+    border: black;
+    border-radius: 0.75cm;
+}
+
+#submit {
+    background-color: black;
+    color: #FCA311;
+}
+
+#submit:hover{
+    color: #FCA311;
+}
+
+/* For all a's inside a span*/
+span a { 
+    text-transform: uppercase;
+    color: #FCA311;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <header>
+        <h1>Forms Demo</h1>
+    </header>
+    <main>
+        <form action="/search/">
+            <p>
+                <label for="username">USERNAME</label>
+                <input type="text" placeholder="text here dumbass" id="username" name="username">
+            </p>
+            <p>
+                <label for="password">PASSWORD</label>
+                <input id="password" type="password" placeholder="password" name="password">
+            </p>
+            <div>
+                <label for="search">Search Request</label>
+                <input type="text" name="search" id="search">
+            </div>
+            <br>
+            <div>
+                <button>Sign In</button>
+            </div>
+        </form>
+        <form action="https://news.google.com/search?q=">
+            <div>
+                <label for="search">Search Request</label>
+                <input type="text" name="q" id="search">
+            </div>
+            <div>
+                <button>Submit</button>
+            </div>
+        </form>
+        <div>
+            <form action="/car-type/">
+                <input type="radio" name="car" id="McLaren" value="mclaren">
+                <label for="McLaren">McLaren</label>
+                <input type="radio" name="car" id="Porsche" value="porsche">
+                <label for="Porsche">Porsche</label>
+                <input type="radio" name="car" id="Mercedes" value="Mercedes">
+                <label for="Mercedes">Mercedes</label>
+            </form>
+        </div>
+        <div>
+            <form action="/termsofservice/">
+                <input type="checkbox" id="tos" name="tos" required>
+                <label for="tos">Agree to Terms of Service</label>
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div>
+            <h3>What stage of the sales cycle are you at?</h3>
+            <form action="/sales-stage">
+                <select name="sales-stage" id="sales-stage">
+                    <option value="">--Please Choose--</option>
+                    <option value="Development">Development</option>
+                    <option value="Qualified">Qualified</option>
+                    <option value="Presentation">Presentation</option>
+                    <option value="Decision">Decision</option>
+                    <option value="Negotiation">Negotiation</option>
+                    <option value="Closed Won">Closed Won</option>
+                </select>
+                <button>Save</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

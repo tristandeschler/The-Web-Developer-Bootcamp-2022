@@ -1,0 +1,37 @@
+div {
+    width: 200px;
+    height: 200px;
+    background: #e5989b;
+    display: inline-block;
+    
+}
+h1 {
+    margin: 2px;
+    text-align: center;
+}
+
+#one {
+    background: pink;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+#two {
+    border-color: black;
+    background: plum;
+    border-color: blue;
+    border-width: 2px;
+    border-style: dashed;
+    box-sizing: border-box;
+    border-left-color: brown;
+}
+
+#three {
+    border-color: black;
+    background: powderblue;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 5%;
+}
